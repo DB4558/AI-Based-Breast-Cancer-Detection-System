@@ -1,12 +1,12 @@
-# AI-Based Kidney Tumor Detection System
+# AI-Based Breast Cancer Detection System
 
 ## Overview
-This project is an AI-based system for detecting kidney tumors from CT scans. It features a user-friendly web interface where patients can register, log in, upload CT scans, and receive tumor predictions. Medical professionals can review these scans and provide additional assessments. The system uses a React frontend, Flask backend, and MySQL for data management.
+This project is an AI-based system for detecting breast acncer from CT scans. It features a user-friendly web interface where patients can register, log in, upload CT scans, and receive tumor predictions. Medical professionals can review these scans and provide additional assessments. The system uses a React frontend, Flask backend, and MySQL for data management.
 
 ## Features
 - **User Registration and Authentication**: Secure login system for patients and doctors.
 - **Image Upload and Management**: Patients can upload and manage their CT scan images.
-- **AI Prediction**: Automated tumor detection on uploaded CT scans.
+- **AI Prediction**: Automated breast cancer detection on uploaded CT scans.
 - **Doctor Review**: Doctors can review AI predictions and provide their assessments.
 - **Results Comparison**: Patients can view both AI and doctor evaluations.
 
@@ -59,7 +59,7 @@ python app.py
 
 ### Prerequisites
 - Docker
-- Kubernetes
+- Ansible
 - Flask
 - Python
 
@@ -67,8 +67,8 @@ python app.py
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/DB4558/kidney-tumor-detection.git
-   cd kidney-tumor-detection
+   git clone https://github.com/DB4558/breast-cancer-detection.git
+   cd breast-cancer-detection
 2.**For running Backend**
   python app.py
 
